@@ -141,7 +141,7 @@ def main():
             print("No CVEs found for the specified kernel version.")
     
     elif (cve_search_str!=""):
-        print("Public github links related to CVE", cve_search_str)
+        print("", cve_search_str)
         search_github_cve(cve_search_str.replace(" ", ""))
 
 main()
