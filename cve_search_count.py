@@ -1,5 +1,3 @@
-%%writefile cves_search.py
-
 import requests
 import json
 import sys
